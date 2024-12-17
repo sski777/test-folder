@@ -4,3 +4,9 @@ for (i = 0; i < array.length; i++){
     let variable = array[i]
     count = count + variable
 }
+if (count==0){
+    return null
+}
+else{
+    return false
+}
